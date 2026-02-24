@@ -1,0 +1,14 @@
+# OS junk
+.DS_Store
+
+# Data (keep raw Kaggle files out of git)
+data/
+*.csv
+*.json
+*.zip
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
