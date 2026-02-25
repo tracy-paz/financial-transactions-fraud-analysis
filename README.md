@@ -17,5 +17,11 @@ using SQL (PostgreSQL) and Python.
 ### 1. Transaction Method Is a Strong Fraud Risk Indicator
 Analysis of over 8.9 million labeled transactions shows that online (card-not-present) transactions have a significantly higher fraud rate compared to in-person payment methods. Online transactions exhibit a fraud rate of approximately **0.84%**, compared to **0.10%** for chip-based transactions and **0.03%** for swipe-based transactions. This represents an **8× higher fraud risk than chip transactions** and **over 25× higher risk than swipe transactions**, highlighting transaction method as a critical signal for fraud detection systems.
 
+### 2. Fraud Risk Is Concentrated in Specific Merchant Categories
+
+Fraud risk is not evenly distributed across merchant categories. Analysis of merchant category codes (MCCs) with sufficient labeled volume (≥1,000 transactions) shows that certain categories exhibit fraud rates **an order of magnitude higher than the overall baseline**. The highest-risk categories include merchants selling high-value or easily resellable goods—such as computers, electronics, and precious metals—as well as digital or ticket-based services with rapid fulfillment.
+
+These categories demonstrate fraud rates ranging from approximately **2% to over 10%**, compared to a sub-1% rate across all labeled transactions. This concentration suggests that merchant category is a critical contextual signal for fraud detection and highlights the importance of incorporating MCC-level features into risk scoring, monitoring, and model development.
+
 ## Status
 🚧 In progress
