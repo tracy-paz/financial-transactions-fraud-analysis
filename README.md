@@ -23,5 +23,8 @@ Fraud risk is not evenly distributed across merchant categories. Analysis of mer
 
 These categories demonstrate fraud rates ranging from approximately **2% to over 10%**, compared to a sub-1% rate across all labeled transactions. This concentration suggests that merchant category is a critical contextual signal for fraud detection and highlights the importance of incorporating MCC-level features into risk scoring, monitoring, and model development.
 
+### 3. — Error signals: frequency ≠ fraud risk
+Among labeled transactions with errors, Insufficient Balance is the most common error (~88k), but has a low fraud rate (~0.20%). In contrast, authentication-related errors show higher fraud association—Bad CVV has the highest fraud rate (~3.39%; 142 fraud out of ~4.2k labeled error transactions). This suggests error type is a useful feature for fraud detection, with Bad CVV in particular warranting stronger review or step-up authentication.
+
 ## Status
 🚧 In progress
