@@ -26,8 +26,8 @@ These categories demonstrate fraud rates ranging from approximately **2% to over
 ### 3. — Error signals: frequency ≠ fraud risk
 Among labeled transactions with errors, Insufficient Balance is the most common error (~88k), but has a low fraud rate (~0.20%). In contrast, authentication-related errors show higher fraud association—Bad CVV has the highest fraud rate (~3.39%; 142 fraud out of ~4.2k labeled error transactions). This suggests error type is a useful feature for fraud detection, with Bad CVV in particular warranting stronger review or step-up authentication.
 
-### 4. — Fraud risk rises with transaction amount
-Across labeled transactions, fraud rates increase as amounts get larger. Transactions >$200 show the highest fraud rate (~1.03%) compared with $50–$200 (0.21%), <$10 (0.11%), and $10–$50 (0.08%). This suggests high-dollar transactions warrant stronger monitoring or step-up verification.
+### 4. Fraud risk rises with transaction amount
+Across labeled transactions, fraud rates increase as transaction amounts grow. Transactions over $200 show the highest fraud rate (~1.03%), compared with $50–$200 (0.21%), <$10 (0.11%), and $10–$50 (0.08%). This pattern suggests high-dollar transactions warrant stronger monitoring or step-up verification controls.
 
 ## Status
 🚧 In progress
